@@ -12,7 +12,7 @@ app.use(express.json());
 
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSSWORD}@cluster0.px2gaoj.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://happyUser:y7YCwQUfwddbTUi2@cluster0.px2gaoj.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
